@@ -1,0 +1,142 @@
+*{
+                margin: 0;
+                font-family: Arial;
+                border: border-box;
+            }
+
+            .startHead{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 20px;
+                color: rgb(228, 228, 226);
+            }
+
+            #menu{
+                text-decoration: none;
+                color: rgb(228, 228, 226);
+            }
+
+            .container{
+                font-weight: 1000;
+                height: auto;
+                width: 70%; 
+                border-radius: 10px;
+                margin-top: 150px;
+                margin-left: 220px;
+                box-shadow: 25px 25px 25px rgb(211, 219, 222);
+            }
+
+            #about{
+                height: auto;
+                width: 40%;
+                margin-bottom: 15px;
+                margin-left: 30%;
+                border-radius: 100px;
+                box-shadow: 25px 25px 25px rgb(200, 207, 210);
+            }
+
+            #skills{
+                height: auto;
+                width: 40%;
+                margin-left: 30%;
+                border-radius: 100px;
+                box-shadow: 25px 25px 25px rgb(200, 207, 210);
+            }
+
+            #projects{
+                height: auto;
+                width: 40%;
+                margin-left: 30%;
+                border-radius: 100px;
+                box-shadow: 25px 25px 25px rgb(200, 207, 210);
+            }
+
+            .contact{
+                margin-top:9%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgb(228, 228, 226);
+            }
+
+            @media only screen and (max-width: 768px) {
+                 body{
+                    width: 100%;
+                }
+            }
+
+            #firstName{
+                color: rgb(244, 228, 49);
+                text-shadow: 2px 2px rgb(228, 228, 226);
+                font-size: 60px;
+                font-style: italic;
+            }
+
+            #lastName{
+                font-size: 60px;
+                color: rgb(244, 228, 49);
+                text-shadow: 2px 2px rgb(228, 228, 226);
+                font-style: italic;
+            }
+
+            #Profession{
+                font-size: 30px;
+                color: rgb(228, 228, 226);
+            }
+
+            #intro{
+                margin-top: 9px;
+            }
+
+            #Pimage{
+                border-radius: 20px;
+            }
+
+            .bbt{
+                margin-top: 2.5%;
+            }
+            
+            button:hover {
+                background-color: rgb(95, 79, 197); 
+                transition: background-color 0.5s ease;
+            }
+            
+
+            #aboutT{
+                margin-top: 6%; 
+                color: rgb(244, 228, 49); 
+                font-weight: 1000; 
+                font-size: 40px;
+            }
+
+            #aboutData{
+                color: rgb(228, 228, 226);
+            }
+
+            #skillsT{
+                margin-top: 16%;
+                color: rgb(244, 228, 49); 
+                font-weight: 1000; 
+                font-size: 40px;
+            }
+
+            #skillsData{
+                color: rgb(228, 228, 226);
+            }
+
+            #projectsT{
+                margin-top: 7.5%; 
+                color: rgb(244, 228, 49); 
+                font-weight: 1000;
+                font-size: 40px;
+            }
+
+            #projectsData{
+                color: rgb(228, 228, 226);
+            }
+            footer{
+                background-color: rgba(128, 128, 126, 0.587);
+                color: rgb(227, 227, 224);
+                margin-top: 35px;
+                height: 25px;
+            }
